@@ -29,7 +29,9 @@ El sitio listo para publicar queda en `dist/`. La compilación incluye la interf
 
 ### Publicar gratis con GitHub Pages
 
-El proyecto incluye el workflow `.github/workflows/deploy.yml`. Para activarlo:
+Esta aplicación ya está publicada en <https://emprendemas15-ship-it.github.io/vanesa-finanzas-personales/>. El código fuente está en <https://github.com/emprendemas15-ship-it/vanesa-finanzas-personales>. El workflow `.github/workflows/deploy.yml` compila y publica automáticamente cada push a `main`.
+
+Para publicar una copia en otro repositorio:
 
 1. Crea un repositorio en GitHub y sube el código fuente a la rama `main` (no subas `node_modules/`, `dist/` ni copias de seguridad financieras).
 2. En GitHub, abre **Settings → Pages** y selecciona **GitHub Actions** como origen de despliegue.
