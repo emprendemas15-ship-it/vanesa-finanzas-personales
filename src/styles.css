@@ -242,8 +242,6 @@ body.dark .warning-box { color: #e9cf9e; border-color: #554632; background: #292
 .install-instructions { margin-top: 10px; padding: 12px; border-radius: 10px; background: var(--surface-soft); font-size: 11px; line-height: 1.6; }
 .danger-panel { border-color: #efd9d5; }
 .danger-panel .warning-box { margin-bottom: 14px; }
-.privacy-footer { display: flex; align-items: center; justify-content: center; gap: 6px; margin: 22px auto 0; color: var(--muted); text-align: center; font-size: 10px; }
-.privacy-footer svg { color: var(--green-bright); }
 .mobile-more-menu { display: none; }
 .app-alert { display: flex; align-items: center; gap: 8px; margin: 0 0 13px; padding: 10px 13px; border-radius: 9px; font-size: 11px; }
 .app-alert button { display: grid; place-items: center; margin-left: auto; padding: 3px; border: 0; background: transparent; color: inherit; }
@@ -319,7 +317,6 @@ body.dark .warning-box { color: #e9cf9e; border-color: #554632; background: #292
   .mobile-more-menu { position: fixed; right: 10px; bottom: calc(62px + env(safe-area-inset-bottom)); z-index: 31; display: grid; min-width: 190px; gap: 3px; padding: 7px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); box-shadow: var(--shadow); }
   .mobile-more-menu button { display: flex; align-items: center; gap: 9px; padding: 10px; border: 0; border-radius: 8px; color: var(--text); background: transparent; text-align: left; font-size: 11px; }
   .mobile-more-menu button.active { color: var(--green); background: var(--green-soft); }
-  .privacy-footer { padding: 0 10px; font-size: 9px; }
 }
 @media (max-width: 380px) {
   .main-content { padding-right: 10px; padding-left: 10px; }
