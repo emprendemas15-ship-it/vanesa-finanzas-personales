@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.local
+.vite/
+.env
+.env.*
+!.env.example
+vanesa-respaldo-*.json
+vanesa-movimientos-*.csv
+*.backup.json
